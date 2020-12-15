@@ -8,7 +8,7 @@ This  is an Android Music Player.
 		<li>MVVM</li>
 		<li>Retrofit</li>
 
-	</ul>
+
 </h3>
 <h3>
 	<a href="https://cafebazaar.ir/app/com.amin.saazangplayer?l=en">Splayer</a>
