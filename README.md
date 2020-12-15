@@ -1,2 +1,27 @@
-# Splayer
-Splayer is an Android MediaPlayer
+## Splayer
+This  is an Android Music Player.
+
+<h3>
+	Used Technologies
+	<ul>
+		<li>Dagger</li>
+		<li>MVVM</li>
+
+	</ul>
+</h3>
+<h3>
+	<a href="https://cafebazaar.ir/app/com.amin.saazangplayer?l=en">Splayer</a>
+</h3>
+
+
+<div>
+<img src="https://github.com/amin200x/splayer/blob/master/image1.jpeg" alt="image1" width="250" height="350">
+<img src="https://github.com/amin200x/splayer/blob/master/image2.jpeg" alt="image2" width="250" height="350">
+<img src="https://github.com/amin200x/splayer/blob/master/image3.jpeg" alt="image3" width="250" height="350">
+<img src="https://github.com/amin200x/splayer/blob/master/image4.jpeg" alt="image4" width="250" height="350">
+<img src="https://github.com/amin200x/splayer/blob/master/image5.jpeg" alt="image5" width="250" height="350">
+<img src="https://github.com/amin200x/splayer/blob/master/image6.jpeg" alt="image5" width="250" height="350">
+
+
+
+</div>

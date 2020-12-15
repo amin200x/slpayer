@@ -1,0 +1,39 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="favorite_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>@string/english</item>
+        <item>@string/farsi</item>
+        <item>@string/turkish</item>
+        <item>@string/azeri</item>
+    </string-array>
+
+    <string-array name="languages_value">
+        <item>@string/en</item>
+        <item>@string/fa</item>
+        <item>@string/tr</item>
+        <item>@string/az</item>
+    </string-array>
+
+    <string-array name="themes_list">
+        <item>@string/theme1</item>
+        <item>@string/theme2</item>
+        <item>@string/theme3</item>
+        <item>@string/theme4</item>
+        <item>@string/theme5</item>
+    </string-array>
+    <string-array name="themes_list_title" >
+        <item>@string/theme1_title</item>
+        <item>@string/theme2_title</item>
+        <item>@string/theme3_title</item>
+        <item>@string/theme4_title</item>
+        <item>@string/theme5_title</item>
+
+    </string-array>
+
+
+</resources>

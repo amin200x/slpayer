@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playerPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="85"
+        android:orientation="vertical"
+       android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        >
+        <SeekBar
+            android:id="@+id/seekbarVolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:thumb="@drawable/ic_baseline_volume_up_24"
+            />
+        <ImageView
+            android:id="@+id/imageviewMusic"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginTop="10dp"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/textviewMusicPLayerPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:gravity="center"
+            android:text="Music"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <TextView
+            android:id="@+id/textviewArtistPLayerPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:gravity="center"
+            android:text="Artist"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <TextView
+            android:id="@+id/textviewAlbumPLayerPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:gravity="center"
+            android:text="Music"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+   >
+    <TextView
+        android:id="@+id/textviewLeftTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="0.0"
+        android:textSize="12sp"/>
+    <SeekBar
+        android:id="@+id/seekbarMusic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="75"
+        android:min="0"
+        />
+
+
+    <TextView
+        android:id="@+id/textviewTotalDuration"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="12"
+        android:maxLines="1"
+        android:text="0.0"
+        android:textSize="12sp"
+        />
+</LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

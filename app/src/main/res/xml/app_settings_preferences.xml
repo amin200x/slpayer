@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/general_header_setting">
+        <ListPreference
+            app:key="app_language"
+            app:entries="@array/languages"
+            app:entryValues="@array/languages_value"
+            android:defaultValue="@string/english"
+            app:persistent="true"
+            android:title="@string/title_language"
+            app:summary="@string/summary_language"
+            app:defaultValue="@string/en"/>
+
+        <ListPreference
+            app:key="app_theme"
+            app:entries="@array/themes_list_title"
+            app:entryValues="@array/themes_list"
+            android:defaultValue="@string/english"
+            app:persistent="true"
+            android:title="@string/title_theme"
+            app:summary="@string/summary_theme"
+            app:defaultValue="@string/theme1"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

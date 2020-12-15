@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SPlayer</string>
+    <string name="all_music">Musics</string>
+    <string name="albums">Albums</string>
+    <string name="folders">Folders</string>
+    <string name="artist">Artist</string>
+    <string name="music_name">Music</string>
+    <string name="album_name">Album</string>
+    <string name="recently_played">Recently Played</string>
+    <string name="favorite_music">Favorite Musics</string>
+    <string name="app_settings">Application Settings</string>
+    <string name="open" translatable="false">Navigation Open</string>
+    <string name="close" translatable="false">close</string>
+    <string name="title_activity_settings" >Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="general_header_setting">General</string>
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="dialog_title">Permission necessary</string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="farsi" translatable="false">Farsi</string>
+    <string name="turkish" translatable="false">Turkish</string>
+    <string name="azeri" translatable="false">Azeri</string>
+    <string name="en" translatable="false">en-US</string>
+    <string name="fa" translatable="false">fa</string>
+    <string name="tr" translatable="false">tr</string>
+    <string name="az" translatable="false">az</string>
+
+
+    <string name="theme1" translatable="false">Theme 1</string>
+    <string name="theme2" translatable="false">Theme 2</string>
+    <string name="theme3" translatable="false">Theme 3</string>
+    <string name="theme4" translatable="false">Theme 4</string>
+    <string name="theme5" translatable="false">Theme 5</string>
+
+    <string name="theme1_title" >Theme 1</string>
+    <string name="theme2_title" >Theme 2</string>
+    <string name="theme3_title" >Theme 3</string>
+    <string name="theme4_title" >Theme 4</string>
+    <string name="theme5_title" >Theme 5</string>
+
+    <string name="title_language">Language</string>
+    <string name="summary_language">Choose a language from the list for the app</string>
+    <string name="title_theme">Theme</string>
+    <string name="summary_theme">Choose a theme from the list for the app</string>
+    <string name="search_hint">Search</string>
+    <string name="all_musics">All Musics</string>
+    <string name="app_about" translatable="false">Developed By A.Ghadimian In 2020. V: 2.0</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:title="">
+            <menu>
+
+                <item
+                    android:id="@+id/recent_music"
+                    android:icon="@drawable/ic_baseline_recent_time_24"
+                    android:title="@string/recently_played"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/favorite_music"
+                    android:icon="@drawable/ic_baseline_favorite_32"
+                    android:title="@string/favorite_music"
+                    app:showAsAction="ifRoom" />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="">
+            <menu>
+                <item
+                    android:id="@+id/app_settings"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="@string/app_settings"
+                    app:showAsAction="ifRoom" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

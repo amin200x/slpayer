@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SPlayer</string>
+    <string name="all_music">آهنگها</string>
+    <string name="albums">آلبومها</string>
+    <string name="folders">پوشه ها</string>
+    <string name="artist">هنرمند</string>
+    <string name="music_name">آهنگ</string>
+    <string name="album_name">آلبوم</string>
+    <string name="recently_played">اخیرا پخش شده</string>
+    <string name="favorite_music">آهنگهای محبوب</string>
+    <string name="app_settings">تنظیمات برنامه</string>
+    <string name="title_language">زبان</string>
+    <string name="summary_language">زبان مورد نظر برای برنامه را انتخاب کنید.</string>
+    <string name="summary_theme">"تغییر پس زمینه "</string>
+    <string name="title_theme">پس زمینه</string>
+    <string name="search_hint">جستجو</string>
+    <string name="general_header_setting">عمومی</string>
+    <string name="dialog_title">نیاز به مجوز</string>
+    <string name="all_musics">همه موزیک ها</string>
+    <string name="theme1_title">پس زمینه 1</string>
+    <string name="theme2_title">پس زمینه 2</string>
+    <string name="theme3_title">پس زمینه 3</string>
+    <string name="theme4_title">پس زمینه 4</string>
+    <string name="theme5_title">پس زمینه 5</string>
+    <string name="title_activity_settings">تنظیمات</string>
+
+</resources>

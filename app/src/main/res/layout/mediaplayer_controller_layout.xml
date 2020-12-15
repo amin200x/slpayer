@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayoutMediaPlayerController"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonFavorite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="15"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_favorite_border_32" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPrevious"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_skip_previous_64" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPlayPause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_play_arrow_64" />
+
+        <ImageButton
+            android:id="@+id/imageButtonNext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_skip_next_64" />
+
+        <ImageButton
+            android:id="@+id/imageButtonPlayType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_trending_flat_32" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButtonShowHide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_baseline_keyboard_arrow_up_24"
+        />
+</LinearLayout>
+

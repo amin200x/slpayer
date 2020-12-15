@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:background="@drawable/layout_notification_background"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageViewAlbumArtNotification"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:scaleType="centerCrop"
+       />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewMusicNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="top|center_horizontal"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:text="Music"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:textSize="11sp" />
+        <TextView
+            android:id="@+id/textViewMusicArtistNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="top|center_horizontal"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:text="Artist"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:textSize="11sp" />
+        <TextView
+            android:id="@+id/textViewMusicAlbumNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="top|center_horizontal"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:text="Album"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+
+            <ImageButton
+                android:id="@+id/imageButtonExit"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_weight="8"
+                android:layout_gravity="right|top"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_baseline_close_24"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonPreviousNotification"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_baseline_skip_previous_64" />
+
+            <ImageButton
+                android:id="@+id/imageButtonPlayNotification"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_baseline_play_arrow_64" />
+
+            <ImageButton
+                android:id="@+id/imageButtonNextNotification"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_baseline_skip_next_64" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

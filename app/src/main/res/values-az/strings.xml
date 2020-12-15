@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SPlayer</string>
+    <string name="all_music">Musiqilər</string>
+    <string name="albums">Albomlar</string>
+    <string name="folders">Qovluqlar</string>
+    <string name="artist">Sənətçi</string>
+    <string name="music_name">musiqi</string>
+    <string name="album_name">Albom</string>
+    <string name="recently_played">son dinlədi</string>
+    <string name="favorite_music">Sevimli Musiqilər</string>
+    <string name="app_settings">Tətbiq Ayarları</string>
+    <string name="general_header_setting">Ümumi</string>
+    <string name="dialog_title">İcazə lazımdır</string>
+    <string name="theme1_title">Mövzu 1</string>
+    <string name="theme2_title">Mövzu 2</string>
+    <string name="theme3_title">Mövzu 3</string>
+    <string name="theme4_title">Mövzu 4</string>
+    <string name="theme5_title">Mövzu 5</string>
+    <string name="title_language">Dil</string>
+    <string name="summary_language">Tətbiq üçün siyahıdan bir dil seçin.</string>
+    <string name="title_theme">Mövzu</string>
+    <string name="summary_theme">ətbiq üçün siyahıdan bir mövzu seçin.</string>
+    <string name="search_hint">Axtar</string>
+    <string name="all_musics">Bütün Musiqilər</string>
+    <string name="title_activity_settings">Tətbiqlər</string>
+</resources>
