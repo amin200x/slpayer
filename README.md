@@ -6,6 +6,7 @@ This  is an Android Music Player.
 	<ul>
 		<li>Dagger</li>
 		<li>MVVM</li>
+		<li>Retrofit</li>
 
 	</ul>
 </h3>
